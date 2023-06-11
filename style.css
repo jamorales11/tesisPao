@@ -1,46 +1,92 @@
 /* Centered text */
 .centered {
-    position: relative;
-    display: flex;
-    justify-content: center;
-  }
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
 
-  .row-space{
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
+.row-space {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
-  .image:hover .image {
-    opacity: 0.3;
-  }
-  
-  .image:hover .middle {
-    opacity: 1;
-  }
+.image:hover .image {
+  opacity: 0.3;
+}
 
-  .text {
-    background-color: #04AA6D;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-  }
+.image:hover .middle {
+  opacity: 1;
+}
 
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
+.text-image-button {
+  /* background-color: #04AA6D; */
+  font-family: "EB Garamond";
+  color: black;
+  font-size: 35px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  padding: 16px 32px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.title-font {
+  font-family: "EB Garamond";
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+.text-font {
+  font-family: "EB Garamond";
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+
+.footer-font {
+  font-family: "EB Garamond";
+  font-size: 17px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+
+.body-borders{
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+
+
