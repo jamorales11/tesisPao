@@ -10,6 +10,10 @@
   padding-bottom: 50px;
 }
 
+.video-space{
+  padding-top: 50px;
+}
+
 .image:hover .image {
   opacity: 0.3;
 }
@@ -80,6 +84,7 @@
   font-weight: 300;
   line-height: 20px;
   color: rgba(255,255,255,1.00);
+  padding-bottom: 40px;
 }
 
 
